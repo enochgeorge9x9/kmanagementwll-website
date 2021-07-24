@@ -1,55 +1,55 @@
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  line-height: 1.6em;
-  font-family: $font-stack;
-  overflow-x:hidden;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 1.6em;
+	font-family: $font-stack;
+	overflow-x: hidden;
 }
 
 .container {
-  max-width: $body-w;
-  padding: 0 $padding-width;
+	max-width: $body-w;
+	padding: 0 $padding-width;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 // Background Image
 .bg {
-  background-size: $body-w auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-width: 80%;
-  margin: 0 auto;
-  opacity: 0.7;
+	background-size: $body-w auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-width: 80%;
+	margin: 0 auto;
+	opacity: 0.7;
 }
 
 // All Lines
 .line {
-  display: block;
-  height: 3px;
-  background-color: $line-color;
-  margin: 8px 0;
+	display: block;
+	height: 3px;
+	background-color: $line-color;
+	margin: 8px 0;
 }
 
 .line1 {
-  width: 100%;
+	width: 100%;
 }
 
 .line2 {
-  width: 100%;
-  margin: 0;
+	width: 110%;
+	margin: 6px 0;
 }
 
 .line3 {
-  width: 20vw;
-  background-color: $secondary-color;
+	width: 20vw;
+	background-color: $secondary-color;
 }
 
-a:hover{
-    text-decoration: none;
+a:hover {
+	text-decoration: none;
 }
