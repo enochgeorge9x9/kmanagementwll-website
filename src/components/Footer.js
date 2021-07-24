@@ -15,13 +15,13 @@ const Footer = () => {
 					</h3>
 					<div className='media-links2'>
 						<a className='meidaLink' href='www.whatsapp.com'>
-							<i class='bx bxl-messenger'></i>
+							<i className='bx bxl-messenger'></i>
 						</a>
 						<a className='meidaLink' href='www.facebook.com'>
-							<i class='bx bxl-facebook'></i>
+							<i className='bx bxl-facebook'></i>
 						</a>
 						<a className='meidaLink' href='www.instagram.com'>
-							<i class='bx bxl-instagram'></i>
+							<i className='bx bxl-instagram'></i>
 						</a>
 					</div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquet magna a euismod interdum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquet magna a euismod interdum</p>

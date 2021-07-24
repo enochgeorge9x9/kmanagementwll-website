@@ -32,7 +32,8 @@ a {
 	.content-wrap {
 		display: flex;
 		flex-direction: column;
-		height: $banner-h;
+		// height: $banner-h;
+		height: 500px;
 		justify-content: center;
 
 		.content-text {

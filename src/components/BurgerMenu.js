@@ -23,7 +23,6 @@ const Header = () => {
 		Contact: 'envelope',
 		// Portfolio: 'book-content',
 	};
-
 	return (
 		<header className={menu ? 'burgerMenu' : 'burgerMenu burgerMenu-active'}>
 			<div className='d-flex flex-column'>
@@ -36,7 +35,7 @@ const Header = () => {
 						{Object.entries(socialLinks).map(([name, link]) => {
 							return (
 								<a href={link} className={name} key={name} target='_blank' rel='noreferrer'>
-									<i class={`bx bxl-${name}`}></i>
+									<i className={`bx bxl-${name}`}></i>
 								</a>
 							);
 						})}
@@ -53,19 +52,19 @@ const Header = () => {
 							<span>Home</span>
 						</a>
 					</li>
-					{Object.entries(NavLinks).map(([link, logo]) => {
+					{Object.entries(NavLinks).map(([key, value]) => {
 						return (
 							<li>
-								<a href={`#${link.toLowerCase()}`}>
-									<i className={`bx bx-${logo}`}></i>
-									<span>{link}</span>
+								<a href={`#${key}`}>
+									<i className={`bx bx-${value}`}></i>
+									<span>{key}</span>
 								</a>
 							</li>
 						);
 					})}
 				</ul>
-				<button onClick={menuToggle} type='button' class='mobile-nav-toggle d-xl-none'>
-					<i class={menu ? 'icofont-navigation-menu' : 'icofont-close'}></i>
+				<button onClick={menuToggle} type='button' className='mobile-nav-toggle d-xl-none'>
+					<i className={menu ? 'icofont-navigation-menu' : 'icofont-close'}></i>
 				</button>
 			</nav>
 			<div className='banner-infos-2'>
