@@ -69,9 +69,9 @@ const Footer = () => {
 					<div className='contact-info links'>
 						<h4>Contact info</h4>
 						<ul>
-							<li>Sitra, Bahrain</li>
-							<li>+973 33332940</li>
-							<li>sysmarkbahrain@gmail.com</li>
+							<li>Atlantas, Sea</li>
+							<li>+9 73 33233940</li>
+							<li>atlantas@gmail.com</li>
 						</ul>
 					</div>
 				</div>

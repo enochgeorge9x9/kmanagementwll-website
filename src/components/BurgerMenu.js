@@ -71,7 +71,7 @@ const Header = () => {
 			</nav>
 			<div className='banner-infos-2'>
 				<p className='banner-info'>sysmarkbahrain@gmail.com</p>
-				<p className='banner-info'>+973 35376577</p>
+				<p className='banner-info'>+973 322323232</p>
 				<a href='#send-message' className='btn btn-banner btn-secondary'>
 					FREE CONSULTATION
 				</a>

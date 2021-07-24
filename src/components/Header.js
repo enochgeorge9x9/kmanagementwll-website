@@ -9,7 +9,7 @@ const Header = () => {
 				<img src={logo} className='logo banner-logo' alt='logo' />
 				<div className='banner-infos'>
 					<p className='banner-info'>sysmarkbahrain@gmail.com</p>
-					<p className='banner-info'>+973 35376577</p>
+					<p className='banner-info'>+973 34436577</p>
 					<p className='banner-info'>EN</p>
 					<a href='#send-message' className='btn btn-banner btn-secondary'>
 						FREE CONSULTATION
