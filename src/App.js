@@ -8,7 +8,7 @@ import SectionC from './components/Section-c';
 import SectionD from './components/Section-d';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import BurgerMenu from './components/BurgerMenu'
+import BurgerMenu from './components/BurgerMenu';
 
 import banner from './imgs/banner.svg';
 
@@ -19,7 +19,7 @@ function App() {
 		<div>
 			<body>
 				{/* <!-- Header --> */}
-                <BurgerMenu />
+				<BurgerMenu />
 				<Header />
 
 				{/* <!-- Main Content --> */}

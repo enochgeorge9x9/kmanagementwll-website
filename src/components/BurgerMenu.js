@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../imgs/logo.png';
+import logo from '../imgs/logo-light.png';
 
 const Header = () => {
 	const socialLinks = {
@@ -29,7 +29,9 @@ const Header = () => {
 				<div className='profile'>
 					<img src={logo} alt='' className='' />
 					<h1 className='text-light'>
-						<a href='index.html'>Kevin Management</a>
+						<a href='index.html'>
+							<span>Kevin</span> Management
+						</a>
 					</h1>
 					<div className='social-links mt-3 text-center'>
 						{Object.entries(socialLinks).map(([name, link]) => {

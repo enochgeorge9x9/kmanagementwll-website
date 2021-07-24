@@ -1,5 +1,5 @@
 // Images
-import logo from '../imgs/logo.png';
+import logo from '../imgs/logo-light.png';
 
 const Header = () => {
 	return (

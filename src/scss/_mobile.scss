@@ -207,15 +207,18 @@
 				// justify-self: center;
 
 				.logo2 {
-					width: 10rem;
-					justify-self: end;
+					width: 14rem;
+					grid-column: 1/4;
+					justify-self: center;
 				}
 
 				h3 {
-					font-size: 1.5em;
-					grid-column: 2/4;
-					justify-self: start;
-					padding: 0 0.5rem;
+					font-size: 1.8em;
+					grid-column: 1/4;
+					padding: 1rem 0;
+					padding-left: 0;
+					text-align: center;
+					justify-self: center;
 				}
 
 				p {
@@ -223,12 +226,12 @@
 				}
 
 				.media-links2 {
-					padding: 2rem 0;
+					padding-bottom: 2rem;
 					grid-column: 1/4;
 					justify-content: center;
 
 					a {
-						padding: 0 2rem;
+						padding: 0 1rem;
 					}
 				}
 			}
