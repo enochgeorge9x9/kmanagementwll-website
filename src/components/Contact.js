@@ -51,11 +51,9 @@ const Contact = () => {
 		<section className='contact-us container'>
 			{/* <!-- Send Message/Email --> */}
 			<form className='send-message' id='send-message' onSubmit={submitForm}>
-                
 				{message && (
 					<div className={`alert alert-dismissible fade show ${message.class}`} role='alert'>
 						{message.text}
-					
 					</div>
 				)}
 				<div className='message'>
@@ -80,7 +78,7 @@ const Contact = () => {
 			<div className='more-infos'>
 				<div>
 					<h3>Our Location </h3>
-					<p>Sitra, Flat 11, Bldg 4305, Road 474, Blk 604, Bahrain</p>
+					<p>Lol, lol, lol</p>
 				</div>
 				<div>
 					<h3>Email </h3>
@@ -88,7 +86,7 @@ const Contact = () => {
 				</div>
 				<div>
 					<h3>Phone </h3>
-					<p>+973 33332940</p>
+					<p>+973 33768768</p>
 				</div>
 				<div>
 					<h3>Office Hours </h3>

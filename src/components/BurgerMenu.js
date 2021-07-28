@@ -16,13 +16,13 @@ const Header = () => {
 	// Icons from Box-Icon
 	// Name: Icon_Name
 
-	const NavLinks = {
-		About: 'user',
-		Services: 'server',
-		// Testimonials: 'message-rounded-detail',
-		Contact: 'envelope',
-		// Portfolio: 'book-content',
-	};
+	const NavLinks = [
+		{ About: { logo: 'user', link: '#section-a' } },
+		{ Services: { logo: 'server', link: '#section-b' } },
+		{ Contact: { logo: 'envelope', link: '#footer' } },
+		// {Testimonials: {logo: 'message-rounded-detail',link: ''}},
+		// {Portfolio: {logo: 'book-content',link: ''}}
+	];
 	return (
 		<header className={menu ? 'burgerMenu' : 'burgerMenu burgerMenu-active'}>
 			<div className='d-flex flex-column'>
@@ -54,15 +54,18 @@ const Header = () => {
 							<span>Home</span>
 						</a>
 					</li>
-					{Object.entries(NavLinks).map(([key, value]) => {
-						return (
-							<li>
-								<a href={`#${key}`}>
-									<i className={`bx bx-${value}`}></i>
-									<span>{key}</span>
-								</a>
-							</li>
-						);
+					{NavLinks.map((link, index) => {
+						return Object.entries(link).map((navlink) => {
+							return (
+								<li>
+									<a href={navlink[1].link}>
+										<i className={`bx bx-${navlink[1].logo}`}></i>
+
+										<span>{navlink[0]}</span>
+									</a>
+								</li>
+							);
+						});
 					})}
 				</ul>
 				<button onClick={menuToggle} type='button' className='mobile-nav-toggle d-xl-none'>
