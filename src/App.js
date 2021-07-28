@@ -9,8 +9,7 @@ import SectionD from './components/Section-d';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BurgerMenu from './components/BurgerMenu';
-
-import banner from './imgs/banner.svg';
+import SideBanner from './components/SideBanner';
 
 import './assets/icofont/icofont.min.css';
 
@@ -25,9 +24,7 @@ function App() {
 				{/* <!-- Main Content --> */}
 				<main>
 					{/* <!-- Side Banner --> */}
-					<div className='banner'>
-						<img src={banner} alt='' />
-					</div>
+					<SideBanner />
 
 					{/* <!-- Section A --> */}
 					<SectionA />

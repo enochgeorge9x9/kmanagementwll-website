@@ -1,0 +1,70 @@
+.banner {
+	width: 35%;
+	height: 100%;
+	position: absolute;
+	// left:245px;
+	// background-color: blue;
+	text-align: right;
+	margin: 2rem 0;
+
+	img {
+		position: relative;
+		width: 410px;
+		height: auto;
+		z-index: 1;
+		transform: scaleX(0.8);
+	}
+
+	.banner-infos {
+		text-align: left;
+		max-width: 18em;
+		// background: lightgray;
+		position: absolute;
+		top: 40px;
+		left: 200px;
+		z-index: 2;
+
+		.content-1 {
+			margin-bottom: 44rem;
+		}
+
+		h3 {
+			color: $secondary-color;
+			font-weight: 700;
+			font-size: 40px;
+			margin: 0;
+
+			span {
+				display: block;
+				font-size: 15px;
+				font-weight: 700;
+				color: $primary-color;
+			}
+		}
+
+		h4 {
+			font-size: 40px;
+			font-weight: 700;
+			color: $primary-color;
+		}
+
+		p {
+			color: $primary-color;
+			font-size: 15px;
+			padding-top: 1rem;
+			font-weight: 500;
+		}
+	}
+}
+
+@media (max-width: 1450px) {
+	main {
+		.banner {
+			width: 30%;
+
+			.banner-infos {
+				left: 80px;
+			}
+		}
+	}
+}

@@ -4,6 +4,7 @@
 @import 'scss/burgerMenu';
 @import 'scss/Header';
 @import 'scss/Footer';
+@import 'scss/sideBanner';
 
 html {
 	scroll-behavior: smooth;
@@ -67,24 +68,6 @@ a {
 // Main Content
 main {
 	//   display: none;
-
-	.banner {
-		width: 35%;
-		height: 100%;
-		position: absolute;
-		// left:245px;
-		// background-color: blue;
-		text-align: right;
-		margin: 2rem 0;
-
-		img {
-			position: relative;
-			width: 410px;
-			height: auto;
-			z-index: 1;
-			transform: scaleX(0.8);
-		}
-	}
 
 	.section {
 		// background-color: orange;
