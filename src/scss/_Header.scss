@@ -44,8 +44,8 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-	margin: 0 auto;
-	padding: 2px $padding-width;
+	padding-top: 8px;
+
 	//   background-color: steelblue;
 
 	.navLinks {
@@ -60,7 +60,7 @@ header {
 			list-style-type: none;
 
 			a:hover {
-				transition: all 0.2s ease-in-out;
+				transition: all 0.15s ease-in-out;
 				color: $secondary-color;
 				font-weight: 800;
 				padding-bottom: 0.68rem;
