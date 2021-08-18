@@ -18,7 +18,7 @@ a {
 
 // Hero-Content
 .bg-img1 {
-	background-image: url('./imgs/meeting1.png');
+	background-image: url('./imgs/meeting1.1.png');
 	position: relative;
 	//   max-height: $banner-h;
 	max-height: 75%;
@@ -57,7 +57,7 @@ a {
 		span {
 			display: block;
 			color: $secondary-color;
-					font-size: 2.5em;
+			font-size: 2.5em;
 			font-weight: 700;
 			letter-spacing: 1.7px;
 		}
@@ -255,13 +255,13 @@ main {
 
 			h3:nth-child(odd) {
 				padding: 0.2rem 0;
-                color: $secondary-color;
+				color: $secondary-color;
 			}
 
 			p {
 				font-size: 0.8em;
 				font-weight: 700;
-                color: $primary-color
+				color: $primary-color;
 			}
 		}
 
