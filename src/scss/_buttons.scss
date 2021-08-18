@@ -1,55 +1,53 @@
 %btn {
-    display: inline-block;
-    border-radius: 5px;
-    padding: 13px 10px;
-    font-weight: 700;
-    font-family: $font-stack-2;
-    font-size: 14px;
-    border: 1px solid $secondary-color;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 13px 10px;
+	font-weight: 700;
+	font-family: $font-stack-2;
+	font-size: 14px;
+	border: 1px solid $secondary-color;
 
-
-    &:hover{
-        transform: scale(.98);
-    }
-
+	&:hover {
+		transform: scale(0.98);
+	}
 }
 
-.btn-trans{
-    background-color: transparent;
-    border-color: $light-color;
+.btn-trans {
+	background-color: transparent;
+	border-color: $light-color;
 
-    &:hover{
-        background-color: lighten($light-color,10%);
-        color: $primary-color;
-        font-weight: 800;
-    }
+	&:hover {
+		background-color: lighten($light-color, 10%);
+		color: $primary-color;
+		font-weight: 800;
+	}
 }
 
-.btn-secondary{
-    @extend %btn;
-    background-color: $secondary-color;
-    color: $light-color;
+.btn-secondary {
+	@extend %btn;
+	background-color: darken($secondary-color, 2%);
+	color: $light-color;
 
-    &:hover{
-        background-color: darken($secondary-color,2%);
-    }
+	&:hover {
+		background-color: darken($secondary-color, 6%);
+	}
 }
 
-.btn-light{
-    @extend %btn;
-    border-color: $light-color;
-    color: $primary-color;
+.btn-light {
+	@extend %btn;
+	border-color: $light-color;
+	color: $primary-color;
 
-    &:hover{
-        color: $primary-color;
-    }
+	&:hover {
+		color: $primary-color;
+	}
 }
 
-.round-btn{
-    @extend %btn;
-    min-width: 10m;
-    border-radius: 1.8em;
-    padding: 0.5em 1em;
-    text-align: center;
-    margin-right: 0.5em;
+.round-btn {
+	@extend %btn;
+	min-width: 10m;
+	border-radius: 1.8em;
+	padding: 0.5em 1em;
+	text-align: center;
+	margin-right: 0.5em;
 }

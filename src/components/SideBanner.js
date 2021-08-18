@@ -4,6 +4,7 @@ const SideBanner = () => {
 	return (
 		<div className='banner'>
 			<img src={banner} alt='' />
+
 			<div className='banner-infos'>
 				<div className='content-1'>
 					<h3>

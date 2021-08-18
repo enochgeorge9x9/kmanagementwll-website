@@ -1,14 +1,12 @@
-import briefCase from "../imgs/briefCase.svg"
 import arrowRight from "../imgs/arrow-right.svg"
-import bank from "../imgs/bank.svg"
-
 
 const SectionC = () => {
     return (
         <div className="container">
                 <section id="section-c" className='section'>
                     <div className="card card1">
-                        <img src={briefCase} alt="briefCase" />
+                        {/* <img src={briefCase} alt="briefCase" /> */}
+                        <i class="icofont-briefcase-2"></i>
                         <h3>Business Organization.</h3>
                         <a href="/business">MORE <img src={arrowRight} alt="" /></a>
                     </div>
@@ -21,7 +19,8 @@ const SectionC = () => {
 
 
                     <div className="card card3">
-                        <img src={bank} alt="bank" />
+                        {/* <img src={bank} alt="bank" /> */}
+                        <i class="icofont-bank-alt"></i>
                         <h3>Banking and Finance Law.</h3>
                         <a href="/banking">MORE <img src={arrowRight} alt="" /></a>
                     </div>

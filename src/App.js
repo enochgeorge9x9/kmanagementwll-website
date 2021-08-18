@@ -29,9 +29,11 @@ function App() {
 					{/* <!-- Section A --> */}
 					<SectionA />
 
-					<div className='bg bg-img2'>
+					<div className='bg bg-img2 text-position-1'>
 						{/* <!-- Section B --> */}
-						<SectionB />
+						<div className='bg bg-secondary3'>
+							<SectionB />
+						</div>
 
 						{/* <!-- Section C --> */}
 						<SectionC />
